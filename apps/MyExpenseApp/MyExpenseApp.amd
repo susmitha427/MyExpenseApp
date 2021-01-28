@@ -1,6 +1,7 @@
 {
   "applicationId": "MyExpenseApp",
   "tasks": [
+  
     {
       "id": "root",
       "routingPattern": "/",
