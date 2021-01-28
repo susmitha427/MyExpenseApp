@@ -1,0 +1,22 @@
+{
+  "applicationId": "MyExpenseApp",
+  "tasks": [
+    {
+      "id": "root",
+      "routingPattern": "/",
+      "page": {
+        "id": "home"
+      }
+    }
+
+
+  ],
+  "dataProviders": [
+    {
+      "key": "EXAMPLE",
+      "value": "https://api.workday.com/common/v1/workers"
+    }
+
+  ]
+
+}

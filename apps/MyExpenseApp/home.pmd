@@ -1,0 +1,39 @@
+{
+  "id": "home",
+  "endPoints":[
+    {
+        "name": "Workerslist",
+        "url": "https://api.workday.com/common/v1/workers?limit=20",
+        "authType": "SSO"
+   }
+   ],
+  "presentation": {
+    "title": {
+      "type": "title",
+      "label": "Workday Extend"
+    },
+    "body": {
+      "type": "section",
+      "children": [
+        {
+          "type": "text",
+          "id": "hello",
+          "label": "Hello World!",
+          "value": "Welcome from Workday!"
+        }
+
+
+      ]
+    },
+    "footer": {
+      "type": "footer",
+      "children": [
+        {
+          "type": "richText",
+          "enabled": "false",
+          "value": "Powered By Workday Extend"
+        }
+      ]
+    }
+  }
+}

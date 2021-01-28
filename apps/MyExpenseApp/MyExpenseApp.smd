@@ -1,0 +1,19 @@
+{
+  "id": "MyExpenseApp",
+  "siteId": "MyExpenseApp",
+  "siteAuth": {
+    "authTypes": [
+      {
+        "id": "sso",
+        "scheme": "SSO"
+      }
+    ]
+  },
+  "languages": [
+    {
+      "code": "en-US",
+      "description": "English"
+    }
+  ],
+  "applicationId": "MyExpenseApp"
+}
